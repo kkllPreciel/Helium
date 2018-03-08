@@ -179,7 +179,7 @@ Helium.DoGraphicsProjectSettings = function()
 		if _OPTIONS[ "gfxapi" ] == "direct3d" then
 			includedirs
 			{
-				os.getenv( "DXSDK_DIR" ) .. "Include"
+				"D:\\DiskC\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Include"
 			}
 		end
 
@@ -187,7 +187,7 @@ Helium.DoGraphicsProjectSettings = function()
 		if _OPTIONS[ "gfxapi" ] == "direct3d" then
 			libdirs
 			{
-				os.getenv( "DXSDK_DIR" ) .. "Lib/x86",
+				"D:\\DiskC\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Lib\\x86",
 			}
 		end
 
@@ -195,7 +195,7 @@ Helium.DoGraphicsProjectSettings = function()
 		if _OPTIONS[ "gfxapi" ] == "direct3d" then
 			libdirs
 			{
-				os.getenv( "DXSDK_DIR" ) .. "Lib/x64",
+				"D:\\DiskC\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Lib\\x64",
 			}
 		end
 
