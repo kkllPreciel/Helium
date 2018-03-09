@@ -198,6 +198,7 @@ void GameSystem::Cleanup()
 /// @return  Result code of application execution.
 int32_t GameSystem::Run()
 {
+  // ƒƒCƒ“ƒ‹[ƒv
 	while ( !m_bStopRunning )
 	{
 		AssetLoader::GetInstance()->Tick();
